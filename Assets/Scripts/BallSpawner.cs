@@ -3,8 +3,8 @@ using UnityEngine;
 public class BallSpawner : MonoBehaviour
 {
     public GameObject ballPrefab;  // Prefab de la bola
-    public float minSpeed = 5f;    // Velocidad mínima
-    public float maxSpeed = 20f;   // Velocidad máxima
+    public float minSpeed = 50f;    // Velocidad mínima
+    public float maxSpeed = 50f;   // Velocidad máxima
     public float spawnInterval = 1f;  // Intervalo de generación en segundos
     public float ballLifetime = 5f;   // Tiempo de vida de cada bola en segundos
 
